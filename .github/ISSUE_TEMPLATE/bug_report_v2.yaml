@@ -15,7 +15,7 @@
 name: 🐞 Bug Report
 description: File a bug report
 title: 'Title for the bug'
-labels: 'telebirr,firbase,question, new'
+labels: 'question, new'
 body:
   - type: markdown
     id: before-you-start
@@ -24,15 +24,15 @@ body:
         *[READ THIS]:* to evaluate if you are in the right place?
         - For issues or feature requests related to __the code in this repository__, file a Github issue.
         - If this is a __feature request__, make sure the issue title starts with "FR:".
-        - For general technical questions, post a question on [StackOverflow](http://stackoverflow.com/) with the telebirr tag.
-        - For general telebirr discussion, use the [firebase-talk](https://groups.google.com/forum/#!forum/firebase-talk) google group.
+        - For general technical questions, post a question on [StackOverflow](http://stackoverflow.com/) with the firebase tag.
+        - For general Firebase discussion, use the [firebase-talk](https://groups.google.com/forum/#!forum/firebase-talk) google group.
         - For help troubleshooting your application that does not fall under one of the above categories, reach out to the personalized [Firebase support channel](https://firebase.google.com/support/).
   - type: input
     id: operating-system
     attributes:
       label: Operating System
       description: Describe your operating system
-      placeholder: ex. Android 32-bit and 64-bit
+      placeholder: ex. iOS 16.4
     validations:
       required: true
   - type: input
@@ -40,22 +40,22 @@ body:
     attributes:
       label: Browser Version
       description: Describe your browser version
-      placeholder: ex. chrome/123.0.6312.41
+      placeholder: ex. Safari/604.1
     validations:
       required: true
   - type: input
-    id: telebirr-playstore
+    id: firebase-sdk-version
     attributes:
-      label: 'telebirr'
-      description: Describe your telebirr Version
-      placeholder: ex. 1.0.0
+      label: Firebase SDK Version
+      description: Describe your Firebase SDK Version
+      placeholder: ex. 9.16.0
     validations:
       required: true
   - type: dropdown
-    id: telebirr-playstore
+    id: firebase-sdk-products
     attributes:
-      label: 'telebirr Product:'
-      description: Which telebirr Products are used in your app?
+      label: 'Firebase SDK Product:'
+      description: Which Firebase Products are used in your app?
       multiple: true
       options:
         - Analytics
