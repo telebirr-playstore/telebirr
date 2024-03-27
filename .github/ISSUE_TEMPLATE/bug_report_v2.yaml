@@ -15,7 +15,7 @@
 name: 🐞 Bug Report
 description: File a bug report
 title: 'Title for the bug'
-labels: 'telebirr,question, new'
+labels: 'question, new'
 body:
   - type: markdown
     id: before-you-start
@@ -32,7 +32,7 @@ body:
     attributes:
       label: Operating System
       description: Describe your operating system
-      placeholder: ex. Android 64-bit
+      placeholder: ex. Android 32-bit and 64-bit
     validations:
       required: true
   - type: input
@@ -44,17 +44,17 @@ body:
     validations:
       required: true
   - type: input
-    id: telebirr-playstore
+    id: telebirr-playstore-version
     attributes:
-      label: telebirr
-      description: Describe your telebirr 
+      label: telebirr-playstore-version
+      description: Describe your telebirr playstore Version
       placeholder: ex. 1.0.0
     validations:
       required: true
   - type: dropdown
-    id: telebirr-playstore
+    id: telebirr-playstore-products
     attributes:
-      label: 'telebirr Product:'
+      label: 'telebirr playstore Product:'
       description: Which telebirr Products are used in your app?
       multiple: true
       options:
