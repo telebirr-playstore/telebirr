@@ -46,7 +46,7 @@ body:
   - type: input
     id: telebirr-playstore
     attributes:
-      label: 'Firebase,telebirr'
+      label: 'telebirr'
       description: Describe your telebirr Version
       placeholder: ex. 1.0.0
     validations:
