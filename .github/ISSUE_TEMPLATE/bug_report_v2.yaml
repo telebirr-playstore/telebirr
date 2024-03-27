@@ -55,7 +55,7 @@ body:
     id: telebirr-playstore
     attributes:
       label: 'telebirr Product:'
-      description: Which Firebase Products are used in your app?
+      description: Which telebirr Products are used in your app?
       multiple: true
       options:
         - Analytics
