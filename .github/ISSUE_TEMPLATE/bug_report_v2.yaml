@@ -32,7 +32,7 @@ body:
     attributes:
       label: Operating System
       description: Describe your operating system
-      placeholder: ex. iOS 16.4
+      placeholder: ex. Android 64-bit
     validations:
       required: true
   - type: input
@@ -40,21 +40,21 @@ body:
     attributes:
       label: Browser Version
       description: Describe your browser version
-      placeholder: ex. Safari/604.1
+      placeholder: ex. chrome/123.0.6312.41
     validations:
       required: true
   - type: input
-    id: firebase-sdk-version
+    id: telebirr-playstore
     attributes:
-      label: Firebase SDK Version
-      description: Describe your Firebase SDK Version
-      placeholder: ex. 9.16.0
+      label: telebirr
+      description: Describe your telebirr 
+      placeholder: ex. 1.0.0
     validations:
       required: true
   - type: dropdown
-    id: firebase-sdk-products
+    id: telebirr-playstore
     attributes:
-      label: 'Firebase SDK Product:'
+      label: 'telebirr Product:'
       description: Which Firebase Products are used in your app?
       multiple: true
       options:
